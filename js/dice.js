@@ -6,7 +6,7 @@ var num;
 
 function setup() {
     // put setup code here
-    cnv = createCanvas(500, 300);
+    cnv = createCanvas(windowWidth, windowHeight);
     windowResized();
     background(200);
     noLoop()
