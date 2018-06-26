@@ -1,5 +1,5 @@
 var balls = [];
-var numBalls = 60;
+var numBalls = 30;
 
 var spring = 0.05;
 var gravity = 0.03;

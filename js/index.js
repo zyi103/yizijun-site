@@ -24,8 +24,8 @@ function setup() {
 function draw() {
     background(0);
 
-    drawTitle();
-    drawLink();
+    //drawTitle();
+    //drawLink();
 
     fill(255, 34);
     //background
@@ -35,15 +35,9 @@ function draw() {
         ball.display();
     });
 
-    ellipse(this.width*.2,this.height*.3,120,120);
 }
 
-function mousePressed(){
-    var d = dist(mouseX, mouseY, this.width*.2, this.height*.3);
-    if (d < 60) {
-        window.location.href = 'dice.html';
-    }
-}
+
 //link
 function drawLink(){
     fill(255);

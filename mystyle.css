@@ -1,0 +1,53 @@
+html *
+{
+    color: #ffffff !important;
+}
+
+canvas { position:fixed; top:0; left:0; z-index:-2; }
+
+a{
+    text-decoration: none;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 8vw !important;
+}
+
+
+.container {
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.item {
+    padding: 10px;
+}
+
+.linkText {
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vw;
+}
