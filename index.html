@@ -4,36 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, content="user-scalable=no">
     <style> body {padding: 0; margin: 0;} </style>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <script src="addons/p5.min.js"></script>
-    <script src="addons/p5.dom.min.js"></script>
-    <script language="javascript" type="text/javascript" src="addons/p5.dom.js"></script>
-    <script src="addons/p5.sound.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/ball.js"></script>
+
 </head>
 <body>
-
-
-<div class="outer" style="z-index: -1">
-    <div class="middle">
-        <div class="inner title">
-            Jim's Js Game Web
+    <div class="outer" id="canvas1" style="z-index: -1">
+        <div class="middle">
+            <div class="inner title">
+                Jim's Js Game Web
+            </div>
         </div>
     </div>
-</div>
+    <div id="fireworks"></div>
 
-<div class="container">
-    <a href="dice.html">
-        <div class="item linkText">DICE</div>
-    </a>
+    <div class="container">
+        <a href="dice.html"><div class="item linkText">DICE</div></a>
+        <a href="level.html"><div class="item linkText">LEVEL</div></a>
+        <a href=""><div class="item linkText" style="font-size:1vw">coming soon...</div></a>
+        <a href=""><div class="item linkText" style="font-size:1vw">coming soon...</div></a>
+    </div>
 
-
-    <div class="item linkText" style="font-size:1vw;">coming soon...</div>
-    <div class="item linkText" style="font-size:1vw;">coming soon...</div>
-    <div class="item linkText" style="font-size:1vw;">coming soon...</div>
-
+    <script src="addons/p5.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="addons/anime.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

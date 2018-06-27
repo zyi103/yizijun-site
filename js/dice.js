@@ -8,7 +8,7 @@ function setup() {
     // put setup code here
     cnv = createCanvas(windowWidth, windowHeight);
     windowResized();
-    background(200);
+    background(0);
     noLoop()
 }
 
