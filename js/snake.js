@@ -36,6 +36,8 @@ function snake() {
   };
 
   this.die = function() {
+    bg.stop();
+    gameover.play();
     noLoop();
     alert('GAME OVER');
     alert('Your Score Is: ' + this.total);
@@ -67,6 +69,7 @@ function snake() {
     var d = dist(this.x, this.y, pos.x, pos.y);
     if (d < 1) {
       this.total = this.total + 1;
+      point.play();
       return true;
     } else {
       return false;

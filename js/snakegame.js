@@ -3,9 +3,17 @@ const scl = 20;
 var food;
 var pressed;
 
+function preload() {
+  bg = loadSound("assets/sound/bg.wav");
+}
+
 function setup() {
+  bg.loop();
+  bg.setVolume(0.3);
   let canvas = createCanvas(600, 600);
   canvas.parent('canvas1');
+  point = loadSound("assets/sound/point.wav");
+  gameover = loadSound("assets/sound/game-over.wav");
   snake = new snake();
   frameRate(15);
   pickLocation();
