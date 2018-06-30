@@ -40,12 +40,8 @@ function snake() {
     gameover.play();
     noLoop();
     alert('GAME OVER\nYour Score Is: ' + this.total);
-    if (confirm('RESTART?')) {
-      window.location.reload(false);
-    }
-    else {
-      var getUrl = window.location;
-      window.location.replace(getUrl .protocol + "//" + getUrl.host );}
+    alert('RESTART?');
+    window.location.reload(false);
   };
 
   this.show = function() {
