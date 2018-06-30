@@ -45,7 +45,7 @@ function snake() {
     }
     else {
       var getUrl = window.location;
-      window.location.replace(getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1]);}
+      window.location.replace(getUrl .protocol + "//" + getUrl.host );}
   };
 
   this.show = function() {
