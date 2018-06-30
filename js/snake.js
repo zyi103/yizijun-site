@@ -3,10 +3,12 @@ function snake() {
   this.y = 0;
   this.xspeed = 1;
   this.yspeed = 0;
-  this.total = 0;
+  this.total = 1;
   this.tail = [];
 
   this.update = function() {
+
+
     if (this.total === this.tail.length) {
       for (var i = 0; i < this.tail.length - 1; i++) {
         this.tail[i] = this.tail[i + 1];
@@ -20,10 +22,10 @@ function snake() {
   };
 
   this.death = function() {
-    if (this.x < 0 || this.x > width - scl || this.y < 0 ||
-        this.y > height - scl) {
-      snake.die();
-    }
+    // if (this.x < 0 || this.x > width - scl || this.y < 0 ||
+    //     this.y > height - scl) {
+    //   snake.die();
+    // }
     for (var i = 0; i < this.tail.length; i++) {
       var pos = this.tail[i];
       var dis = dist(this.x, this.y, pos.x, pos.y);
@@ -42,6 +44,14 @@ function snake() {
 
   this.show = function() {
     fill(255);
+    if (this.x > 0 || this.y > 0) {
+      this.x = this.x + width;
+      this.y = this.y + height;
+    }
+    if (this.x > width || this.y > height) {
+      this.x = this.x % width;
+      this.y = this.y % height;
+    }
     for (var i = 0; i < this.tail.length; i++) {
       rect(this.tail[i].x, this.tail[i].y, scl, scl);
     }
