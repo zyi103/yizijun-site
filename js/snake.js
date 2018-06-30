@@ -39,9 +39,13 @@ function snake() {
     bg.stop();
     gameover.play();
     noLoop();
-    alert('GAME OVER');
-    alert('Your Score Is: ' + this.total);
-    location.reload();
+    alert('GAME OVER\nYour Score Is: ' + this.total);
+    if (confirm('RESTART?')) {
+      window.location.reload(false);
+    }
+    else {
+      var getUrl = window.location;
+      window.location.replace(getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1]);}
   };
 
   this.show = function() {
