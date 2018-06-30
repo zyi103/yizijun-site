@@ -47,8 +47,22 @@
       <file leaf-file-name="snakegame.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/snakegame.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="373">
               <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+=======
+            <state relative-caret-position="164">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p5.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="6" column="20332" selection-start-line="6" selection-start-column="20332" selection-end-line="6" selection-end-column="20332" />
+>>>>>>> bugfix
             </state>
           </provider>
         </entry>
@@ -113,8 +127,8 @@
         <option value="$PROJECT_DIR$/js/level.js" />
         <option value="$PROJECT_DIR$/snake.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/snakegame.js" />
         <option value="$PROJECT_DIR$/js/snake.js" />
+        <option value="$PROJECT_DIR$/js/snakegame.js" />
       </list>
     </option>
   </component>
@@ -262,12 +276,17 @@
       <workItem from="1530089003431" duration="445000" />
       <workItem from="1530200662454" duration="6130000" />
       <workItem from="1530243053916" duration="38000" />
-      <workItem from="1530291755923" duration="2805000" />
+      <workItem from="1530291755923" duration="3312000" />
+      <workItem from="1530341954759" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="39225000" />
+=======
+    <option name="totallyTimeSpent" value="40417000" />
+>>>>>>> bugfix
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -282,7 +301,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28363636" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28363636" />
+>>>>>>> bugfix
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.28183118" />
@@ -291,7 +314,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24242425" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24242425" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -614,6 +637,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -621,6 +645,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> bugfix
     <entry file="file://$PROJECT_DIR$/js/ball.js" />
     <entry file="file://$PROJECT_DIR$/js/firework.js" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
@@ -664,17 +690,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/snakegame.js">
+    <entry file="file://$PROJECT_DIR$/js/snake.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="373">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+=======
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+>>>>>>> bugfix
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/snake.js">
+    <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6" column="20332" selection-start-line="6" selection-start-column="20332" selection-end-line="6" selection-end-column="20332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/snakegame.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="615">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
+=======
+        <state relative-caret-position="164">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+>>>>>>> bugfix
         </state>
       </provider>
     </entry>
