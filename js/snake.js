@@ -38,7 +38,7 @@ function snake() {
     alert('GAME OVER');
     alert('Your Score Is: ' + this.total);
     location.reload();
-  }
+  };
 
   this.show = function() {
     fill(255);

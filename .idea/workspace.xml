@@ -39,20 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snake.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="snake.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/snake.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snakegame.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="snakegame.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/snakegame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="164">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p5.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="6" column="20332" selection-start-line="6" selection-start-column="20332" selection-end-line="6" selection-end-column="20332" />
             </state>
           </provider>
         </entry>
@@ -112,8 +121,8 @@
         <option value="$PROJECT_DIR$/js/level.js" />
         <option value="$PROJECT_DIR$/snake.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/snakegame.js" />
         <option value="$PROJECT_DIR$/js/snake.js" />
+        <option value="$PROJECT_DIR$/js/snakegame.js" />
       </list>
     </option>
   </component>
@@ -261,12 +270,13 @@
       <workItem from="1530089003431" duration="445000" />
       <workItem from="1530200662454" duration="6130000" />
       <workItem from="1530243053916" duration="38000" />
-      <workItem from="1530291755923" duration="2805000" />
+      <workItem from="1530291755923" duration="3312000" />
+      <workItem from="1530341954759" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39030000" />
+    <option name="totallyTimeSpent" value="40417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -281,7 +291,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28363636" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -291,7 +301,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24242425" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24242425" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,6 +313,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -567,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="6" column="19105" selection-start-line="6" selection-start-column="19105" selection-end-line="6" selection-end-column="19105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ball.js" />
     <entry file="file://$PROJECT_DIR$/js/firework.js" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
@@ -617,17 +646,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/snakegame.js">
+    <entry file="file://$PROJECT_DIR$/js/snake.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/snake.js">
+    <entry file="file://$PROJECT_DIR$/addons/p5.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="146">
+          <caret line="6" column="20332" selection-start-line="6" selection-start-column="20332" selection-end-line="6" selection-end-column="20332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/snakegame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
