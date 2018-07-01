@@ -1,32 +1,32 @@
 let player;
+let score;
 let boards = [];
 let hit;
-const boardSpeed = 8;
+const boardSpeed = 5;
 
 function setup() {
   let canvas = createCanvas(600, windowHeight);
   canvas.parent('canvas1');
   player = new Player();
+  score = new Score();
 }
 
 function draw() {
-  if (frameCount % 30 === 0) {
-    if (boards.length > 8){
+  if (frameCount % 20 === 0) {
+    if (boards.length > 12){
       boards.splice(0, 1);
     }
     createBoards();
   }
   background(255);
+  score.show();
   fill(0);
-  stroke(0);
   strokeWeight(2);
   displayBoards();
   player.move();
-  if (checkColl()) {
-    player.onBoard();
-  } else {
-    player.fall();
-  }
+  checkYColl();
+  player.fall();
+
   player.death();
   player.show();
 
@@ -43,17 +43,16 @@ function displayBoards() {
   }
 }
 
-function checkColl() {
+function checkYColl() {
   hit = false;
   for (let i = 0; i < boards.length; i++) {
-    hit = collideRectRect(player.x, player.y, player.width, player.height
-        , boards[i].x, boards[i].y, boards[i].width, boards[i].height);
+    hit = boards[i].Yhit(player);
     if (hit) {
+      player.onBoard(boards[i]);
       break;
     }
   }
   return hit;
 }
-
 
 

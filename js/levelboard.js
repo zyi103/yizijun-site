@@ -1,7 +1,7 @@
 class Board {
   constructor(){
-    this.width = random(200,350);
-    this.height  = 10;
+    this.width = floor(random(100, 200));
+    this.height  = 20;
     this.x = random(600-this.width);
     this.y = height - this.height;
   }
@@ -13,4 +13,10 @@ class Board {
   update(){
     this.y -= boardSpeed;
   }
+
+  Yhit(player) {
+    return collideRectRect(player.x, player.y, player.width, player.height
+        , this.x, this.y, this.width, this.height);
+  }
+
 }

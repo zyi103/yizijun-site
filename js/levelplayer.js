@@ -3,14 +3,14 @@ class Player {
     this.x = width / 2;
     this.y = 300;
     this.width = 20;
-    this.height = 30;
+    this.height = 40;
     this.speed = 0;
     this.fallspeed = -10;
     this.gravity = 0.4;
   }
 
   show() {
-    rect(this.x - this.width / 2, this.y, this.width, this.height);
+    rect(this.x, this.y, this.width, this.height);
   }
 
   move() {
@@ -24,12 +24,15 @@ class Player {
 
   fall() {
     this.fallspeed = this.fallspeed + this.gravity;
+    this.fallspeed = constrain ( this.fallspeed,-10,15);
     this.y = this.y + this.fallspeed;
   }
 
-  onBoard() {
-    this.fallspeed = 0;
-    this.y = this.y - boardSpeed;
+  onBoard(board) {
+    if (player.y + player.height < board.y + board.height) {
+      this.fallspeed = 0;
+      this.y = constrain(this.y, -this.height, board.y - this.height);
+    }
   }
 
   death(){
