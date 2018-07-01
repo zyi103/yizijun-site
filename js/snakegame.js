@@ -13,7 +13,7 @@ function setup() {
   let canvas = createCanvas(600, 600);
   canvas.parent('canvas1');
   stroke(35);
-  strokeWeight(3);
+  strokeWeight(2);
   snake = new snake();
   frameRate(15);
   pickLocation();
