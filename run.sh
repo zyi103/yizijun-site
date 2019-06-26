@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "start"
-rm /var/www/*
-mv . /var/www/
+rm -rf /var/www/
+mv www /var/
 echo "finished!"
