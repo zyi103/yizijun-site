@@ -1,6 +1,0 @@
-version: '3'
-services:
-  yizijun-site:
-    build: .
-    ports:
-      - "80:80"
