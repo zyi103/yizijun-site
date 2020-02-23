@@ -41,7 +41,8 @@ spec:
     rules:
     - http:
         paths:
-        - backend:
+        - path: /*
+          backend:
             serviceName: yizijun-site-service
             servicePort: 80
       
