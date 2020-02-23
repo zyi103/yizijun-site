@@ -33,16 +33,26 @@ spec:
     port: 80
     targetPort: 80
 ---
-  apiVersion: extensions/v1beta1
-  kind: Ingress
-  metadata:
-    name: yizijun-site-ingress
+apiVersion: networking.gke.io/v1beta1
+kind: ManagedCertificate
+metadata:
+  name: yizijun-site-certificate
   spec:
-    rules:
-    - http:
-        paths:
-        - path: /*
-          backend:
-            serviceName: yizijun-site-service
-            servicePort: 80
-      
+    domains:
+      - yizijun.site
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: yizijun-site-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: 34.102.129.163
+    networking.gke.io/managed-certificates: yizijun-site-certificate
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /*
+        backend:
+          serviceName: yizijun-site-service
+          servicePort: 80
