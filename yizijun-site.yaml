@@ -19,6 +19,7 @@ spec:
         image: gcr.io/civil-pattern-267217/yizijun-site:v1.3.2
         ports:
         - containerPort: 80
+
 ---
 apiVersion: v1
 kind: Service
@@ -32,21 +33,14 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
----
-apiVersion: networking.gke.io/v1beta1
-kind: ManagedCertificate
-metadata:
-  name: yizijun-site-certificate
-  spec:
-    domains:
-      - yizijun.site
+
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: yizijun-site-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: 34.102.129.163
+    kubernetes.io/ingress.global-static-ip-name: 34.107.233.121
     networking.gke.io/managed-certificates: yizijun-site-certificate
 spec:
   rules:
@@ -56,3 +50,12 @@ spec:
         backend:
           serviceName: yizijun-site-service
           servicePort: 80
+
+---
+apiVersion: networking.gke.io/v1beta1
+kind: ManagedCertificate
+metadata:
+  name: yizijun-site-certificate
+spec:
+  domains:
+    - yizijun.site

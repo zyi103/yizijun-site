@@ -23,9 +23,9 @@ function draw() {
       circles.push(newC);
     } else {
       attemp++;
+      console.log(attemp)
       if (attemp > 500) {
         noLoop();
-        console.log('finish');
         break;
       }
     }
